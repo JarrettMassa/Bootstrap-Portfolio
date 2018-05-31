@@ -1,0 +1,73 @@
+body{
+	background-color: lightgrey;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    z-index: 999;
+}
+
+.navbar-brand{
+	margin-left: 30px;
+	padding: 0px;
+}
+
+.hline{
+	height: 1px;
+	background-color: lightgrey;
+}
+
+.container{
+	margin-top: 50px;
+	margin-bottom: 100px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+
+	background-color: white;
+}
+
+.tilecontainer{
+	width: 200px;
+	height: 175px;
+	position: relative;
+    text-align: center;
+    color: white;
+    border-color: black;
+    border: 10px;
+    margin-right: 20px;
+}
+
+.tilebox {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 200px;
+    background-color: #2B9EEB;
+}
+
+.tiletext {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.tile {
+	width: 200px;
+	height: 175px;
+	float: left;
+	background-color: #2B9EEB;
+}
+
+
